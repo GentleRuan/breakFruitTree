@@ -1,0 +1,48 @@
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{color:#444;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+body{background:darkseagreen;}
+
+
+#top{width:100%; height:50px; background:darkseagreen;}
+	#top ul{width:700px; float:right; list-style:none; margin:0;}
+	#top li{width:110px; height:50px;  float:left; text-align:center; line-height:50px;}
+	#top li:first-of-type{width:200px;}
+
+header{width:100%; height:150px; background:#fff; box-shadow:3px 3px 3px #ddd;}
+	header a{display:block; width:133px; height:101px; float:left;}
+	.left_box{width:1200px; height:150px; margin:0 auto; padding-top:20px;}
+	.right_box{float:right;}
+	.right_box span{font-size:16px;}
+	.right_box ul{width:790px; height:90px; padding-top:50px; position:relative;}
+	.right_box ul li{width:110px; float:left; text-align:center;}
+	.right_box ul div{width:110px; height:370px; border:1px solid #bbb; z-index:10; background:#e8e7e7; opacity:0.7; cursor:pointer; display:none;}
+	.right_box ul div span{display:block; height:40px; padding:10px; text-align:center; line-height:24px; clear:both;}
+	.right_box a{display:flex; flex-direction:column;}
+	.right_box a span{font-size:18px; color:#444;}
+	.right_box a:hover span{color:#248f15;}
+	.right_box a:hover span:first-of-type{font-size:24px;}
+
+.inner_nav{width:1200px; height:24px; margin:15px auto;}
+.inner_nav a{padding:0 10px;}
+
+section{width:1200px; background:#fff; border:1px solid #bbb; margin:0 auto; overflow:hidden; margin-bottom:40px; box-shadow:3px 3px 3px #ddd;}
+section:nth-of-type(1){padding:30px;}
+	section span{font-size:26px; color:darkseagreen;}
+	section img{margin:20px 0;}
+	section #text1{font-size:18px; color:#444; line-height:38px;}
+	section #text2{font-size:18px; color:#444; line-height:38px; text-indent:35px;}
+	section b{color:#0a5223; font-size:20px;}
+	section #b_box{height:302px; border-top:10px solid darkseagreen; border-bottom:10px solid darkseagreen; margin:30px 0;}
+	section #b_box img{float:left; display:block; margin:0; border-right:10px solid darkseagreen;}
+	section #rit{float:left; width:650px; margin:28px 30px;}
+	section #rit span{line-height:30px;}
+
+footer{width:100%; height:150px; background:#fff;}
+	footer div{float:left; margin:30px 80px;}
+	footer span{line-height:30px;}
+	footer div:nth-of-type(2){margin-top:60px;}

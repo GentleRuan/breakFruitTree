@@ -1,0 +1,80 @@
+/*公用样式*/
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{color:#444;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+body{background:url(../bgimgs/bg.02.jpg); background-size:cover;}
+
+/* 顶部样式 */
+
+#top{width:100%; height:50px; background:darkseagreen;}
+	#top ul{width:700px; float:right; list-style:none; margin:0;}
+	#top li{width:110px; height:50px; float:left; text-align:center; line-height:50px;}
+	#top li:first-of-type{width:200px;}
+
+/* 头部样式 */
+header{width:100%; height:150px; background:#fff; box-shadow:3px 3px 3px #ddd;}
+	header a{display:block; width:133px; height:101px; float:left;}
+	.left_box{width:1200px; height:150px; margin:0 auto; padding-top:20px;}
+	.right_box{float:right;}
+	.right_box span{font-size:16px;}
+	.right_box ul{width:790px; height:90px; padding-top:50px; position:relative;}
+	.right_box ul li{width:110px; float:left; text-align:center;}
+	.right_box ul div{width:110px; height:370px; border:1px solid #bbb; z-index:10; background:#e8e7e7; opacity:0.7; cursor:pointer; display:none;}
+	.right_box ul div span{display:block; height:40px; padding:10px; text-align:center; line-height:24px; clear:both;}
+	.right_box a{display:flex; flex-direction:column;}
+	.right_box a span{font-size:18px; color:#444;}
+	.right_box a:hover span{color:#248f15;}
+	.right_box a:hover span:first-of-type{font-size:24px;}
+
+/* 中部导航样式 */
+
+.inner_nav{width:1200px; height:24px; margin:15px auto;}
+.inner_nav a{padding:0 10px;}
+
+/* 轮播图样式 */
+
+section{width:1200px; border:1px solid #bbb; margin:0 auto; overflow:hidden; margin-bottom:40px; box-shadow:3px 3px 3px #ddd; background:#dcede1;}
+	section:nth-of-type(1){height:350px;}
+	section:nth-of-type(1) ul{height:350px; position:relative;}
+	section:nth-of-type(1) li{position:absolute; top:0; left:0; display:none;}
+	section:nth-of-type(1) img{width:1200px; height:350px;}
+	#circle{width:500px; height:45px; background:#aaa; opacity:0.5; position: absolute;left:0; right:0; bottom:10px; margin:auto; border-radius:20px;}
+	#circle div{width:20px; height:20px; background:#fff; border:1px solid #0b2d15; border-radius:50%; margin:12px 15px; float:left;}
+	#circle .current{background:orange;}
+
+/* 商品列表样式 */
+
+	nav{display:flex; justify-content:space-around; margin:30px 0;}
+	#travel{display:block; width:1100px; height:400px; margin:30px auto; opacity:0.7;}
+	nav img{width:77px; height:116px; cursor:pointer;}
+	
+	.product{margin:10px 30px; border-top:1px solid #0b2d15;}
+	.product .left{float:left;}
+	.product .left a{display:block; width:130px; height:130px; border-bottom:2px solid #0b2d15; border-radius:50%; position:relative;} 
+	.product .left img{width:100px; height:100px; border-radius:50%; text-align:center; display:block; position:absolute; top:17px; left:15px;}
+	.product .center{float:left; margin:30px 30px; text-align:center;}
+	.product .center p{font-size:18px; color:darkseagreen;}
+	.product .right{width:180px; height:100px; float:right; text-align:center; margin-top:50px;}
+	.product .right a{font-size:30px; color:#444;}
+	.imgs{width:879px; height:460px; display:flex; flex-wrap:wrap; justify-content:space-between; margin:0 auto;}
+	.imgs a{width:176px; height:176px; position:relative;}
+	.imgs img{width:176px; height:176px; position:absolute; top:0; bottom:0; left:0; right:0; margin:auto;}
+	.imgs img:hover{box-shadow:0 0 40px 7px #bbb;}
+
+/* 楼层导航样式 */
+
+	#floorNav{position:fixed;left:27px;top:30%;list-style:none; background:#acf; opacity:0.5; border-radius:10px; overflow:hidden; display:none;}
+	#floorNav li{width:80px; height:40px; position:relative; cursor:pointer; text-align:center; line-height:40px;}
+	#floorNav span{width:80px; position:absolute; left:0; top:0; background:#fdf; display:none;}
+
+/* 底部版权信息样式 */
+
+footer{width:100%; height:150px; background:#dcede1;}
+footer div{float:left; margin:30px 80px;}
+footer span{line-height:30px;}
+footer div:nth-of-type(2){margin-top:60px;}
+

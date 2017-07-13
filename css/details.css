@@ -1,0 +1,77 @@
+/*公用样式*/
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{color:#444;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+body{background:darkseagreen; background-size:cover;}
+
+/* 顶部样式 */
+
+#top{width:100%; height:50px; background:darkseagreen;}
+	#top ul{width:700px; float:right; list-style:none; margin:0;}
+	#top li{width:110px; height:50px; float:left; text-align:center; line-height:50px;}
+	#top li:first-of-type{width:200px;}
+
+/* 头部样式 */
+header{width:100%; height:150px; background:#fff; box-shadow:3px 3px 3px #ddd;}
+	header a{display:block; width:133px; height:101px; float:left;}
+	.left_box{width:1200px; height:150px; margin:0 auto; padding-top:20px;}
+	.right_box{float:right;}
+	.right_box span{font-size:16px;}
+	.right_box ul{width:790px; height:90px; padding-top:50px; position:relative;}
+	.right_box ul li{width:110px; float:left; text-align:center;}
+	.right_box ul div{width:110px; height:370px; border:1px solid #bbb; z-index:10; background:#e8e7e7; opacity:0.7; cursor:pointer; display:none;}
+	.right_box ul div span{display:block; height:40px; padding:10px; text-align:center; line-height:24px; clear:both;}
+	.right_box a{display:flex; flex-direction:column;}
+	.right_box a span{font-size:18px; color:#444;}
+	.right_box a:hover span{color:#248f15;}
+	.right_box a:hover span:first-of-type{font-size:24px;}
+
+/* 内容区域样式 */
+section{width:1200px; border:1px solid #bbb; margin:0 auto; overflow:hidden; margin-bottom:40px; box-shadow:3px 3px 3px #ddd; background:#dcede1;}
+
+article{width:49%; height:700px; float:left;}
+	article #shopp{width:400px; height:400px; position:relative; margin:40px auto 0;}
+	article #shopp img{width:400px; height:400px; }
+	article #glass{width:150px; height:150px; position:absolute; left:50px; top:50px; background:darkseagreen; opacity:0.5; display:none;}
+	article #goods{width:400px; height:400px; position:absolute; left:550px; top:260px; overflow:hidden; display:none;}
+	article #goods img{width:1066.6px; height:1066.6px; position:absolute; left:0; top:0;}
+	article #tab{width:400px; height:80px; margin:20px auto; display:flex; justify-content:space-around;}
+	article #tab img{width:75px; height:80px; cursor:pointer;}
+	#share{width:250px; margin:0 auto; color:#444;}
+
+aside{width:50%; height:700px; float:right; margin-top:20px;}
+	#price{width:550px; height:70px;} 
+	aside ul{width:550px; height:40px; border-top:1px solid darkseagreen; border-bottom:1px solid darkseagreen;}
+	aside li{width:180px; float:left; text-align:center; line-height:40px;}
+	#select div{width:300px; display:flex; flex-wrap:wrap; justify-content:space-around; margin-left:150px; border-bottom:1px dashed darkseagreen;}
+	#select div span{display:block; width:54px; height:30px; border:1px solid darkseagreen; text-align:center; line-height:30px; margin-bottom:20px;cursor:pointer;}
+	.color{display:block; margin-left:80px; margin-top:20px;}
+	.size{display:block; margin-left:80px; margin-top:20px;}
+	#buy{width:100%; height:42px;  display:flex; justify-content:space-around; margin-top:40px;}
+	#buy span{width:180px; height:40px; border:1px solid darkseagreen; text-align:center; line-height:40px; cursor:pointer;}
+	#buy strong{width:150px; height:40px; line-height:40px; cursor:pointer; font-weight:normal;}
+	aside p{display:block; width:450px; line-height:30px; margin:30px auto 10px; border-bottom:1px dashed darkseagreen;}
+	#serve{width:550px; height:30px; margin:20px auto; line-height:30px;}
+	#serve span:nth-of-type(1),#serve span:nth-of-type(2){display:block; width:120px; height:30px; background:url(../imgs/details/log.01.png) no-repeat 0 3px; float:left; margin-left:10px; padding-left:26px; line-height:30px;}
+	#serve span:nth-of-type(2){ background:url(../imgs/details/log.02.png) no-repeat 0 3px;}
+	#serve span:nth-of-type(3){display:block; width:120px; height:30px; background:darkseagreen; color:#fff; float:right; text-align:center; line-height:30px; border-radius:10px; cursor:pointer;}
+	#foot{width:1100px; height:40px; margin:0 50px; border-bottom:2px dashed #2c7741; float:left; }
+	#foot a{display:block; width:100px; float:left; text-align:center; line-height:40px;}
+	#foot a:hover{background:darkseagreen; color:#fff;}
+	#products{width:1100px; margin:0 auto; display:flex; justify-content:space-around; flex-wrap:wrap;}
+	.body{width:260px; height:320px; margin:20px 0; position:relative;}
+	.body a{display:block; width:260px; height:260px; overflow:hidden; margin:0 auto; position:relative;}
+	.body a img{width:260px; height:260px; position:absolute; top:0; bottom:0; left:0; right:0; margin:auto;}
+	.car{width:25px; height:25px; border:2px solid darkseagreen; border-radius:50%; position:absolute; right:10px; top:275px; text-align:center; line-height:25px; color:darkseagreen; cursor:pointer;}
+
+/* 底部版权信息样式 */
+
+footer{width:100%; height:150px; background:#dcede1;}
+footer div{float:left; margin:30px 80px;}
+footer span{line-height:30px;}
+footer div:nth-of-type(2){margin-top:60px;}
+

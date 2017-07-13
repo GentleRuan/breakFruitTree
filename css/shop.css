@@ -1,0 +1,62 @@
+/* 全局样式 */
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{color:#444;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+body{background:darkseagreen;}
+
+/* 顶部导航样式 */
+#top{width:100%; height:50px; background:darkseagreen;}
+	#top ul{width:700px; float:right; list-style:none; margin:0;}
+	#top li{width:110px; height:50px; float:left; text-align:center; line-height:50px;}
+	#top li:first-of-type{width:200px;}
+
+/* 头部导航样式 */
+header{width:100%; height:150px; background:#fff; box-shadow:3px 3px 3px #ddd;}
+	header a{display:block; width:133px; height:101px; float:left;}
+	.left_box{width:1200px; height:150px; margin:0 auto; padding-top:20px;}
+	.right_box{float:right;}
+	.right_box span{font-size:16px;}
+	.right_box ul{width:790px; height:90px; padding-top:50px; position:relative;}
+	.right_box ul li{width:110px; float:left; text-align:center;}
+	.right_box ul div{width:110px; height:370px; border:1px solid #bbb; z-index:10; background:#e8e7e7; opacity:0.7; cursor:pointer; display:none;}
+	.right_box ul div span{display:block; height:40px; padding:10px; text-align:center; line-height:24px; clear:both;}
+	.right_box a{display:flex; flex-direction:column;}
+	.right_box a span{font-size:18px; color:#444;}
+	.right_box a:hover span{color:#248f15;}
+	.right_box a:hover span:first-of-type{font-size:24px;}
+	
+/* 中部导航样式 */
+.inner_nav{width:1200px; height:24px; margin:15px auto;}
+.inner_nav a{padding:0 10px;}
+
+/* 商品页样式 */
+section{width:1200px; background:#fff; border:1px solid #bbb; margin:0 auto; overflow:hidden; margin-bottom:40px; box-shadow:3px 3px 3px #ddd; background:#dcede1; padding:10px 30px;}
+	#headline{width:1100px; height:80px; line-height:80px;}
+	#headline span:first-of-type{font-size:26px; width:500px; display:block; float:left;}
+	#succeed{ display:block; color:darkseagreen;}
+	#succeed{display:block;}
+	#main{width:900px; display:flex; justify-content:space-around; flex-wrap:wrap;}
+	.body{width:260px; height:320px; margin:20px 0; position:relative;}
+	.body a{display:block; width:260px; height:260px; overflow:hidden; margin:0 auto; position:relative;}
+	.body a img{width:260px; height:260px; position:absolute; top:0; bottom:0; left:0; right:0; margin:auto;}
+	.car{width:25px; height:25px; border:2px solid darkseagreen; border-radius:50%; position:absolute; right:10px; top:275px; text-align:center; line-height:25px; color:darkseagreen; cursor:pointer;}
+	.pagination{margin:20px 305px 30px;}
+
+/* 楼层导航样式 */
+.floor{position:fixed; top:35%; right:60px; list-style:none; border:1px solid #0b2e16; background:#e8e7e7;}
+	.floor li{width:150px; height:40px;text-align:center; line-height:40px; font-size:14px; cursor:pointer; color:#444;}
+	.floor li:nth-of-type(1){background:#0b2e16; color:#fff;}
+	.floor li span{display:block; width:100px; margin:0 auto; border-top:1px dashed darkseagreen;}
+	#shop{width:150px; height:40px; line-height:40px; text-align:center; position:fixed; top:30%; right:60px; cursor:pointer;}
+	#shop .glyphicon{font-size:14px; color:orange;}
+
+/* 底部版权信息 */
+footer{width:100%; height:150px; background:#dcede1;}
+	footer div{float:left; margin:30px 80px;}
+	footer span{line-height:30px;}
+	footer div:nth-of-type(2){margin-top:60px;}
+

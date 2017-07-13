@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Car</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/car.css">
+	
+</head>
+<body>
+<!-- 顶部 -->
+	<div id="top" onselectstart="return false">
+		<ul>
+			<li id="user">
+				<a href="login.html">您好！请登录</a>
+			</li>
+			<li><i class="glyphicon glyphicon-user"></i>
+				<a href="">个人中心</a>
+			</li>
+			<li><i class="glyphicon glyphicon-shopping-cart"></i>
+				<a href="javascript:void(0)">购物车</a>
+			</li>
+			<li><i class="glyphicon glyphicon-cloud"></i>
+				<a href="">帮助中心</a>
+			</li>
+			<li>
+				<i class="glyphicon glyphicon-heart-empty"></i>
+				<i class="glyphicon glyphicon-heart" style="display:none;"></i>
+				<a href="javascript:void(0)">收藏本站</a>
+			</li>
+		</ul>
+	</div>
+<!-- 头部 -->
+	<header onselectstart="return false">
+		<div class="left_box">
+			<a href="index.html"><img src="../imgs/index/log.jpg"></a>
+			<div class="right_box">
+				<span style="float:right">加盟热线：400-606-0507</span>
+				<ul>
+					<li><a href="index.html">
+							<span>首页</span><span>HOME</span>
+						</a>
+						<div class="menu" style="position:absolute;top:130px;left:0;opacity:0;">
+							<span>首页</span>
+						</div>
+					</li>
+					<li><a id="brand" href="brand.html">
+							<span>品牌</span><span>BRAND</span>
+						</a>
+						<div class="menu" style="position:absolute;top:130px;left:120px;">
+							<span>品牌概况</span>
+							<span>品牌创始人</span>
+							<span>全球采购</span>
+							<span>品牌文化</span>
+							<span>联系我们</span>
+						</div>
+					</li>
+					<li><a href="product.html">
+							<span>产品</span><span>PRODUCT</span>
+						</a>
+						<div class="menu" style="position:absolute;top:130px;left:232px;">
+							<span>潮流饰品</span>
+							<span>公仔玩具</span>
+							<span>家居百货</span>
+							<span>精品包饰</span>
+							<span>美容美妆</span>
+							<span>亲肤内衣</span>
+							<span>数码配件</span>
+							<span>精美礼品</span>
+							<span>应季潮品</span>
+						</div>
+					</li>
+					<li><a href="shop.html">
+							<span>店铺</span><span>SHOP</span>
+						</a>
+						<div class="menu" style="position:absolute;top:130px;left:344px;">
+							<span>店铺展示</span>
+						</div>
+					</li>
+					<li><a href="">
+							<span>加盟</span><span>JOIN</span>
+						</a>
+						<div class="menu" style="position:absolute;top:130px;left:456px;">
+							<span>招商加盟</span>
+							<span>在线申请</span>
+						</div>
+					</li>
+					<li><a href="">
+							<span>新闻</span><span>NEWS</span>
+						</a>
+						<div class="menu" style="position:absolute;top:130px;left:568px;">
+							<span>公司新闻</span>
+							<span>品牌动态</span>
+						</div>
+					</li>
+					<li><a href="">
+							<span>联系</span><span>CONTACT</span>
+						</a>
+						<div class="menu" style="position:absolute;top:130px;left:680px;">
+							<span>联系我们</span>
+							<span>在线留言</span>
+						</div>
+					</li>
+				</ul>
+			</div>	
+		</div>
+	</header>
+
+<!-- 内容区域 -->
+	<section onselectstart="return false">
+		<div id="title">
+			<h4 style="color:darkseagreen;">全部商品 <b>1</b></h4>
+			<div>
+			 	配送至：<span>北京朝阳区二环以内</span>
+			</div>
+		</div>
+		<div id="template">
+			<div id="left">
+				<span>商品</span>
+			</div>
+			<div id="right">
+				<span>单价</span>
+				<span>数量</span>
+				<span>小计</span>
+				<span>操作</span>
+			</div>
+		</div>
+		<div id="main">
+		
+		</div>
+		<div class="body" style="display:none;">
+			<div class="product"><input class="choice" type="checkbox"></div>
+			<div class="img"><img src="../imgs/products/life.04.jpg"></div>
+			<div class="name">萌宠系列 手工泥塑 小动物
+				<p> </p>
+				<p>该商品不支持7天无理由退货</p>
+			</div>
+			<div class="price">￥0</div>
+			<div class="count"><span class="minus">- </span><input type="text" class="amount" size="1" value="1"><span class="add"> +</span><p> </p><p>有货</p></div>
+			<div class="total">￥0</div>	
+			<div style="margin-left:14px;"><a class="del" href="javascript:void(0)">删除</a>
+				<p style="cursor:pointer;">移到我的关注</p>
+				<p style="cursor:pointer;">加到我的关注</p>
+			</div>
+		</div>
+		<div id="reminder" style="display:none;">
+			<a href="shop.html">购物车还是空的哦！快去选购吧！</a>
+			<a href="shop.html"><img src="../bgimgs/alert.01.png"></a>
+		</div>
+		<div id="close">
+			<div class="left">
+				<span><label style="margin:0;"><input class="all" style="margin:10px;" type="checkbox"> 全选</label></span>
+				<span>删除选中商品</span>
+				<span>移到我的关注</span>
+				<span>清除下柜商品</span>
+			</div>
+			<div class="right">
+				<div>已选择 <b>1</b> 件商品</div>
+				<div>
+					<p>总价：￥<b id="calcTotal">0</b><i></i></p>
+					<p>已节省：-￥0.00</p>
+				</div>
+				<div><a href="javascript:void(0)">去结算</a></div>
+			</div>
+		</div>
+		<div id="foot">
+			<a href="javascript:void(0)" class="like">猜你喜欢</a>
+			<a href="javascript:void(0)" class="history">浏览历史</a>
+		</div>
+		<div id="products">
+			<div class="body">
+				<div><a href="details.html"><img class="img" src="../imgs/products/fashion.01.jpg"></a></div>
+				<div class="name">新款小毛球耳坠</div>
+				<div class="price">￥69</div>
+				<div class="id" style="display:none">1</div>
+				<div class="car glyphicon glyphicon-shopping-cart"></div>
+			</div>
+			<div class="body">
+				<div><a href="details.html"><img class="img" src="../imgs/products/fashion.02.jpg"></a></div>
+				<div class="name">新款小毛球耳坠</div>
+				<div class="price">￥59</div>
+				<div class="id" style="display:none">2</div>
+				<div class="car glyphicon glyphicon-shopping-cart"></div>
+			</div>
+			<div class="body">
+				<div><a href="details.html"><img class="img" src="../imgs/products/fashion.03.jpg"></a></div>
+				<div class="name">新款小毛球耳坠</div>
+				<div class="price">￥49</div>
+				<div class="id" style="display:none">3</div>
+				<div class="car glyphicon glyphicon-shopping-cart"></div>
+			</div>
+			<div class="body">
+				<div><a href="details.html"><img class="img" src="../imgs/products/fashion.04.jpg"></a></div>
+				<div class="name">新款小毛球耳坠</div>
+				<div class="price">￥89</div>
+				<div class="id" style="display:none">4</div>
+				<div class="car glyphicon glyphicon-shopping-cart"></div>
+			</div>
+			<div class="body">
+				<div><a href="details.html"><img class="img" src="../imgs/products/fashion.05.jpg"></a></div>
+				<div class="name">新款小毛球耳坠</div>
+				<div class="price">￥109</div>
+				<div class="id" style="display:none">5</div>
+				<div class="car glyphicon glyphicon-shopping-cart"></div>
+			</div>
+			<div class="body">
+				<div><a href="details.html"><img class="img" src="../imgs/products/fashion.06.jpg"></a></div>
+				<div class="name">新款小毛球耳坠</div>
+				<div class="price">￥29</div>
+				<div class="id" style="display:none">6</div>
+				<div class="car glyphicon glyphicon-shopping-cart"></div>
+			</div>
+			<div class="body">
+				<div><a href="details.html"><img class="img" src="../imgs/products/fashion.07.jpg"></a></div>
+				<div class="name">新款小毛球耳坠</div>
+				<div class="price">￥109</div>
+				<div class="id" style="display:none">7</div>
+				<div class="car glyphicon glyphicon-shopping-cart"></div>
+			</div>
+			<div class="body">
+				<div><a href="details.html"><img class="img" src="../imgs/products/fashion.08.jpg"></a></div>
+				<div class="name">新款小毛球耳坠</div>
+				<div class="price">￥29</div>
+				<div class="id" style="display:none">8</div>
+				<div class="car glyphicon glyphicon-shopping-cart"></div>
+			</div>
+		</div>
+		
+	</section>
+	
+<!-- 底部版权信息 -->
+	<footer onselectstart="return false">
+		<div>
+			<span>品牌（英国）：Meet the beauty美丽约会官方网站,绿色健康生活家居百货品牌&nbsp; | &nbsp;运营商（中国）：浙江米蔻实业有限公司</span></br>
+			<span>中国运营总部：浙江省义乌市北苑丹溪北路620号米蔻大楼</span></br>
+			<span>加盟咨询：400-606-0507&nbsp; | &nbsp;浙ICP备14034375号&nbsp; | &nbsp;技术支持：紫搜网站建设</span></br>
+		</div>
+		<div>
+			<span style="font-size:26px;">400-600-0507</span></br>
+			<span>www.sfjr8trel.com</span>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../js/car.js"></script>
+</body>
+</html>

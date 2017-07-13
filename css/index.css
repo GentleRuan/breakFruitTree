@@ -1,0 +1,76 @@
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#444;}
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{text-decoration:none;}
+body{background:darkseagreen;}
+
+#top{width:100%; height:50px; background:darkseagreen;}
+	#top ul{width:700px; float:right; list-style:none; margin:0;}
+	#top li{width:110px; height:50px; float:left; text-align:center; line-height:50px;}
+	#top li:first-of-type{width:200px;}
+
+header{width:100%; height:150px; background:#fff; box-shadow:3px 3px 3px #ddd;}
+	header a{display:block; width:133px; height:101px; float:left;}
+	.left_box{width:1200px; height:150px; margin:0 auto; padding-top:20px;}
+	.right_box{float:right;}
+	.right_box span{font-size:16px;}
+	.right_box ul{width:790px; height:90px; padding-top:50px; position:relative;}
+	.right_box ul li{width:110px; float:left; text-align:center;}
+	.right_box ul div{width:110px; height:370px; border:1px solid #bbb; z-index:10; background:#e8e7e7; opacity:0.7; cursor:pointer; display:none;}
+	.right_box ul div span{display:block; height:40px; padding:10px; text-align:center; line-height:24px; clear:both;}
+	.right_box a{display:flex; flex-direction:column;}
+	.right_box a span{font-size:18px; color:#444;}
+	.right_box a:hover span{color:#248f15;}
+	.right_box a:hover span:first-of-type{font-size:24px;}
+
+.inner_nav{width:1200px; height:24px; margin:15px auto;}
+.inner_nav a{padding:0 10px;}
+
+section{width:1200px; background:#fff; border:1px solid #bbb; margin:0 auto; overflow:hidden; margin-bottom:40px; box-shadow:3px 3px 3px #ddd;}
+	.container{width:1200px; height:559px; position:relative; overflow:hidden; position:relative;}
+	.container ul{height:559px; position:absolute; top:0; left:0;}
+	.container li{width:1200px; height:559px; float:left;}
+	.container li img{width:1200px; height:559px;}
+	#circle{width:500px; height:45px; background:#aaa; opacity:0.5; position: absolute;left:0; right:0; bottom:10px; margin:auto; border-radius:20px;}
+	#circle div{width:20px; height:20px; background:#fff; border:1px solid #0b2d15; border-radius:50%; margin:12px 15px; float:left;}
+	#circle .current{background:orange;}
+
+section:nth-of-type(2) #text{width:400px; margin:30px auto; }
+	#text span{font-size:26px; font-weight:bolder; color:slategray;}
+	#text i{font-size:20px; font-weight:bolder; color:orange;}
+	section:nth-of-type(2) img{display:block; margin:0 auto; margin-bottom:20px;}
+
+section:nth-of-type(3){position:relative;}
+section:nth-of-type(3) img{margin:20px;}
+	section:nth-of-type(3) img:nth-of-type(1),section:nth-of-type(3) img:nth-of-type(4){margin-left:55px;}
+	section:nth-of-type(3) img:nth-of-type(3){margin-right:20px;}
+	.test span:last-of-type{display:block; width:250px; height:40px; border:1px solid #444; text-align:center; line-height:40px; font-size:18px; position:absolute; bottom:50px; right:100px; border-radius:15px;}
+	section:nth-of-type(3) .label{width:53px; height:43px; background:url(../imgs/index/label.01.jpg); display:block; position:absolute; top:360px; right:20px;}
+
+section:nth-of-type(4){position:relative;}
+section:nth-of-type(4) img{margin:30px 0 30px 60px; }
+	.store{position:absolute; top:105px; right:154px; color:#FFF;}
+
+section:nth-of-type(5) article{width:690px; float:left;}
+section:nth-of-type(5) article span{display:block; width:650px; font-size:18px; line-height:32px; margin:60px 0 60px 60px; color:#0b2d15; text-indent:34px;}
+	section:nth-of-type(5) article div{width:690px; height:200px; border-top:2px solid #0b2d15;}
+	section:nth-of-type(5) article div img{margin-left:60px; float:left;}
+	section:nth-of-type(5) article div span{width:300px; float:left; margin:0;}
+	section:nth-of-type(5) aside{float:right; margin:50px 45px;}
+	section:nth-of-type(5) aside span{display:block; font-size:18px; margin:15px 10px; color:#0b2d15;}
+	section:nth-of-type(5) nav{width:1100px; height:226px; border-top:2px solid yellow; float:left; margin:0 48px;}
+	section:nth-of-type(5) nav img{width:100%;}
+	.leave_box{width:100%; height:500px; float:left; background:url(../imgs/index/leave.jpg) no-repeat 50px 80px; position:relative;}
+	.leave_box div{border:1px solid #0c2e16; margin:20px 0;}
+	#leave{width:600px; height:500px; position:absolute; top:0; right:100px; font-size:16px;}
+	#leave input,#leave textarea{width:350px; height:40px; margin:10px 0;}
+	#leave textarea{height:76px; resize:none;}
+	#leave button{width:120px; height:40px; margin:20px 55px; background:#0c2e16; color:#fff; border-radius:10px; border:none;}
+
+footer{width:100%; height:150px; background:#fff;}
+footer div{float:left; margin:30px 80px;}
+footer span{line-height:30px;}
+footer div:nth-of-type(2){margin-top:60px;}
